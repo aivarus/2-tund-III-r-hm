@@ -12,11 +12,11 @@
 			
 			//kontrollin et e-post ei ole tühi
 			$email_error = "";
-			if ( empty($_POST["email"] ) ) {	
+			if ( empty($_POST["email"] ) ) {
+			}
 				$email_error = "see väli on kohustuslik";
 			}
 				
-		//kontrollin et parool ei ole tühi
 		
 			
 		
@@ -31,7 +31,7 @@
 		<h2>log in</h2>
 			
 		<form action="login.php" method="post" >
-			<input name="email" type="email" placeholder="e-post"> <?php  echo $email_error; ?> <br><br>
+			<input name="e-post" type="email" placeholder="e-post"> <?php  echo $email_error; ?> <br><br>
 			<input name="password" type="password" placeholder="parool">  <br><br>
 			<input type="submit" value="log in">
 		</form>
