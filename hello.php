@@ -39,4 +39,10 @@
 				
 
 ?>
+<br>
+<?php
 				
+				//trüki välja kuupäev kujul: nädalapäev, kp kuu aasta
+				echo date("l, j, F, y")
+	
+?>	
